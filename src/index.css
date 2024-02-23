@@ -1,0 +1,12 @@
+@tailwind base;
+@layer base {
+  h1 {
+    @apply mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl font-extrabold text-gray-800 md:text-5xl lg:text-6xl;
+  }
+}
+@tailwind components;
+@tailwind utilities;
